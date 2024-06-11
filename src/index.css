@@ -16,6 +16,8 @@ body {
   height: 100vh;
 }
 
+/* Navbar */
+
 nav {
   display: flex;
   align-items: center;
@@ -67,4 +69,38 @@ nav {
 
 .toggler--dark {
   color: #D5D4D8;
+}
+
+
+/* Main */
+
+main {
+  padding: 57px 27px;
+  /* background-image: url("public/vite.svg");  */
+  background-repeat: no-repeat;
+  background-position: right center;
+  flex: 1 1 auto;
+  background-color: white;
+  color: #2B283A;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
